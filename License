@@ -1,0 +1,23 @@
+--COPYRIGHT--
+Flappy430-Copter by HHY 
+ * Copyright (c) 2014, HHY,Flappy430 Team ，CHN
+ * All rights reserved.
+ * Can be used to study
+ * shall not be used for any commercial purpose
+ * thanks Alex，Holger Buss，gale，madwick and their codes
+ * they give me much insperiation
+   Function：This code IS created to control a  Four rotor aircraft 
+              We use Texas Instruments' MSP430F5310 as MCU
+              All circuits are integrated in a PCB board as large as 10*10 cm
+             So it is a tiny  Four rotor aircraft， we call it "flappy430"
+版权声明
+Flappy430飞行器 by HHY
+* Copyright (c) 2014, HHY,Flappy430 Team， CHN
+* 我们保留一切权利
+* 此代码仅仅可以用于学习
+* 禁止用于任何商业目的
+
+
+email：flappy430@163.com
+website：http://shop112974196.taobao.com
+
