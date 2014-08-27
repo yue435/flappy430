@@ -6,13 +6,13 @@ Flappy430—The first nano quadcopter which use MSP430 as MCU
 •	Update : 2014/08/27
 •	video：  http://v.youku.com/v_show/id_XNzYyNjI2Njg4.html
 
- Function：用于控制微型四旋翼飞行器。应该是首次在微型四旋翼飞行器上采用TI公司的MSP430系列单片机
-           
-           目前实现的功能：1 可以飞行，虽然还不是特别稳定；2 与C#单片机通信，显示各个数据； 3 完成部分说明书工作
-            
-           4 code内部均有详细注释。
+Function：用于控制微型四旋翼飞行器。应该是首次在微型四旋翼飞行器上采用TI公司的MSP430系列单片机
+       
+目前实现的功能：1 可以飞行，虽然还不是特别稳定；2 与C#单片机通信，显示各个数据； 3 完成部分说明书工作
+       
+4 code内部均有详细注释。
 
- Waring： 本代码仅仅用作学习之用，禁止用于任何商业目的。但欢迎爱好者对其进行改进。
+Waring： 本代码仅仅用作学习之用，禁止用于任何商业目的。但欢迎爱好者对其进行改进。
  
  描述： 这是Flappy430的开发代码。Flappy430是基于TI公司的MSP430F5310的一个代码，用于控制微型四轴飞行器。Flappy430既是
  代码的名字，也是我们的微型四旋翼飞行器的名字。事实上，它应该是首个基于MSP430的微型四轴飞行器/飞控/开发板。
@@ -30,7 +30,10 @@ Flappy430—The first nano quadcopter which use MSP430 as MCU
 版权声明
 代码向430与四旋翼爱好者开源。但仅限学习之用。禁止用于商业目的。
 授权：软硬件均保留所有权利。爱好者们可以作为学习之用
-![image](https://github.com/yue435/flappy430/raw/master/images/jiaosi.jpg)
+
+
+![image](https://github.com/yue435/flappy430/raw/master/images/jiaosi.JPG)
+
 Flappy430的基本特性：
 MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
 传感器：ITG3205（陀螺）+ADXL345（加速度计），预留mag3110磁强计位置；
@@ -54,8 +57,15 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
      操作：加解锁与MWC飞控基本一致；各通道正反向方面，基本与天6A默认的通道正反一致。油门需要调至反向。
      
   
-![image](https://github.com/yue435/flappy430/raw/master/images/hardware.jpg)
-![image](https://github.com/yue435/flappy430/raw/master/images/yuanlitu.jpg)
+![image](https://github.com/yue435/flappy430/raw/master/images/hardware.JPG)
+
+
+
+
+![image](https://github.com/yue435/flappy430/raw/master/images/yuanlitu.JPG)
+
+
+
 
 2 代码 
 代码分为头文件与源文件，都可以在本处下载。主要有以下部分：
