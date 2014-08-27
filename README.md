@@ -1,10 +1,10 @@
          首个基于MSP430的微型四轴—Flappy430
 Flappy430—The first nano quadcopter which use MSP430 as MCU
 
-•	Author : HHY
-•	Version : v1.0
-•	Update : 2014/08/27
-•	video：  http://v.youku.com/v_show/id_XNzYyNjI2Njg4.html
+•Author : HHY
+•Version : v1.0
+•Update : 2014/08/27
+•video：  http://v.youku.com/v_show/id_XNzYyNjI2Njg4.html
 
 Function：用于控制微型四旋翼飞行器。应该是首次在微型四旋翼飞行器上采用TI公司的MSP430系列单片机
        
@@ -30,9 +30,20 @@ Waring： 本代码仅仅用作学习之用，禁止用于任何商业目的。�
 版权声明
 代码向430与四旋翼爱好者开源。但仅限学习之用。禁止用于商业目的。
 授权：软硬件均保留所有权利。爱好者们可以作为学习之用
-
-
 ![image](https://github.com/yue435/flappy430/raw/master/images/jiaosi.JPG)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Flappy430的基本特性：
 MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
@@ -56,12 +67,12 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
 
      操作：加解锁与MWC飞控基本一致；各通道正反向方面，基本与天6A默认的通道正反一致。油门需要调至反向。
      
-  
-
-
-
-
-![image](https://github.com/yue435/flappy430/raw/master/images/hardware.JPG)
+ ![image](https://github.com/yue435/flappy430/raw/master/images/hardware.JPG)
+ 
+ 
+ 
+ 
+ 
 
 
 
@@ -102,7 +113,6 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
 
 
 
-
 2 代码 
 代码分为头文件与源文件，都可以在本处下载。主要有以下部分：
      1 串口收发，上位机协议
@@ -114,12 +124,14 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
      7 外部中断以及与定时器配合捕获PWM波
      8 时钟设置，各个时钟分频，分配。
      
-     
-     
-     
-     
-     
 ![image](https://github.com/yue435/flappy430/raw/master/images/code.jpg)
+
+
+
+
+
+
+
 
 
 
