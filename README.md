@@ -57,12 +57,48 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
      操作：加解锁与MWC飞控基本一致；各通道正反向方面，基本与天6A默认的通道正反一致。油门需要调至反向。
      
   
+
+
+
+
 ![image](https://github.com/yue435/flappy430/raw/master/images/hardware.JPG)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/yue435/flappy430/raw/master/images/yuanlitu.JPG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -77,7 +113,37 @@ MCU:采用MSP430F5310 （应该是首个采用430芯片的小四轴）；
      6 定时器的使用
      7 外部中断以及与定时器配合捕获PWM波
      8 时钟设置，各个时钟分频，分配。
+     
+     
+     
+     
+     
+     
 ![image](https://github.com/yue435/flappy430/raw/master/images/code.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 3 功能，效果。视频
 目前可以进行飞行，效果见视频。
